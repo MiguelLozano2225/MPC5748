@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868" moduleId="org.eclipse.cdt.core.settings" name="Debug">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MwfeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MwErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.S32DSGNULinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MPWErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.freescale.s32ds.cross.gnu.e200.buildArtefact.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.freescale.s32ds.cross.gnu.e200.buildArtefact.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm}" description="" errorParsers="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.LnkErrorParser;com.freescale.s32ds.cdt.core.errorParsers.AsmErrorParser;com.freescale.s32ds.cdt.core.errorParsers.CobjErrorParser;com.freescale.s32ds.cdt.core.errorParsers.IcodeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.LltErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MwfeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MwErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MPWErrorParser" id="com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868" name="Debug" parent="com.freescale.s32ds.cross.gnu.e200.exe.debug">
+					<folderInfo id="com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868." name="/" resourcePath="">
+						<toolChain id="com.freescale.s32ds.cross.gnu.e200.toolChain.debug.1040782801" name="Standard S32DS toolchain for E200" superClass="com.freescale.s32ds.cross.gnu.e200.toolChain.debug">
+							<option defaultValue="true" id="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize.733289026" name="Print size" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize" valueType="boolean"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard.1442901705" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard" value="false" valueType="boolean"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot.543285938" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.1909479839" name="Libraries support" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1587893963" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/SIUL2_CodeExample_Z2_2}/Debug" id="com.freescale.s32ds.cross.gnu.builder.735476307" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.70086545" name="Standard S32DS C Compiler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.819373438" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.481029027" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections.1554384235" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections.1917955916" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format.18892377" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.include.paths.1933877956" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.1628686229" name="Other flags" superClass="gnu.c.compiler.option.misc.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -fstrict-volatile-bitfields" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sp.175681992" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sp" useByScannerDiscovery="true" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.fp.hard.956458048" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.fp.hard" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sysroot.934635668" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sysroot" useByScannerDiscovery="false" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries.1994705307" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries" useByScannerDiscovery="false" value="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.2075470015" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.80970439" name="Standard S32DS C++ Compiler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1309494700" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.170414799" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections.433942186" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections.1186777284" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format.1838955913" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.include.paths.987116793" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" useByScannerDiscovery="false" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.1328752052" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -fstrict-volatile-bitfields" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sp.247777212" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sp" useByScannerDiscovery="true" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.fp.hard.800334468" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.fp.hard" useByScannerDiscovery="true" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sysroot.1351226960" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sysroot" useByScannerDiscovery="false" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries.1760857472" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries" useByScannerDiscovery="false" value="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.725159010" name="Standard S32DS C Linker" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections.204915318" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.scriptfile.2072786337" name="Script files (-T)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/57xx_flash.ld&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sp.551909437" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.fp.hard.5072320" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sysroot.527517151" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries.1207982530" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.c.linker.inputType.scriptfile.9411940" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.inputType.scriptfile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.2062355169" name="Standard S32DS C++ Linker" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections.2145350779" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.scriptfile.45191005" name="Script files (-T)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/57xx_flash.ld&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sp.442562318" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.fp.hard.2042691583" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sysroot.320755601" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries.281193142" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.archiver.1711958023" name="Standard S32DS Archiver" superClass="com.freescale.s32ds.cross.gnu.e200.tool.archiver"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.2027799089" name="Standard S32DS Assembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler">
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor.1197098530" name="Use preprocessor" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level.2130011912" name="Debug Level" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs.199765965" name="Defined symbols (-D)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DISABLE_SWT0"/>
+								</option>
+								<option id="gnu.both.asm.option.include.paths.221743059" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sp.550730524" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sysroot.666768234" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries.625691890" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1535691366" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile.2001105973" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.createflash.884715326" name="Standard S32DS Create Flash Image" superClass="com.freescale.s32ds.cross.gnu.e200.tool.createflash"/>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.createlisting.944985398" name="Standard S32DS Create Listing" superClass="com.freescale.s32ds.cross.gnu.tool.createlisting">
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.source.1735571178" name="Display source (--source|-S)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders.942536214" name="Display all headers (--all-headers|-x)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.demangle.1444995142" name="Demangle names (--demangle|-C)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers.1219624669" name="Display line numbers (--line-numbers|-l)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.wide.366808169" name="Wide lines (--wide|-w)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.printsize.105216309" name="Standard S32DS Print Size" superClass="com.freescale.s32ds.cross.gnu.tool.printsize">
+								<option id="com.freescale.s32ds.cross.gnu.option.printsize.format.955012341" name="Size format" superClass="com.freescale.s32ds.cross.gnu.option.printsize.format"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.2016690938" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.1434976856" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.disassembler.897367781" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.assembler.1022349617" name="SPT Assembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.assembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.disassembler.291020469" name="SPT Disassembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.preprocessor.1353091828" name="SPT Preprocessor" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.preprocessor"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868.Project_Settings/Debugger/SIUL2_CodeExample_Z2_2_Debug_RAM.launch" name="SIUL2_CodeExample_Z2_2_Debug_RAM.launch" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/SIUL2_CodeExample_Z2_2_Debug_RAM.launch" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Linker_Files/57xx_ram.ld|Debugger/SIUL2_CodeExample_Z2_2_Debug_RAM.launch" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Project_Settings"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264" moduleId="org.eclipse.cdt.core.settings" name="Release">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MwfeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MwErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.S32DSGNULinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MPWErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.freescale.s32ds.cross.gnu.e200.buildArtefact.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.freescale.s32ds.cross.gnu.e200.buildArtefact.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" cleanCommand="${cross_rm}" description="" errorParsers="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.LnkErrorParser;com.freescale.s32ds.cdt.core.errorParsers.AsmErrorParser;com.freescale.s32ds.cdt.core.errorParsers.CobjErrorParser;com.freescale.s32ds.cdt.core.errorParsers.IcodeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.LltErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MwfeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MwErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MPWErrorParser" id="com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264" name="Release" parent="com.freescale.s32ds.cross.gnu.e200.exe.release">
+					<folderInfo id="com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264." name="/" resourcePath="">
+						<toolChain id="com.freescale.s32ds.cross.gnu.e200.toolChain.release.930727720" name="Standard S32DS toolchain for E200" superClass="com.freescale.s32ds.cross.gnu.e200.toolChain.release">
+							<option defaultValue="true" id="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize.1102216370" name="Print size" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize" valueType="boolean"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard.158191024" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard" value="false" valueType="boolean"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot.1075565186" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.727857337" name="Libraries support" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.1664665108" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/SIUL2_CodeExample_Z2_2}/Release" id="com.freescale.s32ds.cross.gnu.builder.1017174464" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.3855536" name="Standard S32DS C Compiler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.option.optimization.level.1402075488" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.436066027" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections.57202999" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections.1433560582" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format.988591382" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.include.paths.308652165" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.1545112624" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fstrict-volatile-bitfields" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sp.1714196239" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.fp.hard.100260793" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sysroot.883428062" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries.1845487000" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.354117042" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.797791348" name="Standard S32DS C++ Compiler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1845017699" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.116167114" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections.1682718085" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections.62551101" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format.577949153" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1691240155" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.1533241749" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fstrict-volatile-bitfields" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sp.301330772" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.fp.hard.837184274" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sysroot.1443527560" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries.1200763148" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.1377198197" name="Standard S32DS C Linker" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections.665173721" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.scriptfile.1626652329" name="Script files (-T)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/57xx_flash.ld&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sp.1572505552" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.fp.hard.40329586" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sysroot.348779431" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries.2078922978" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.c.linker.inputType.scriptfile.1733860585" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.inputType.scriptfile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.168556279" name="Standard S32DS C++ Linker" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections.155559680" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.scriptfile.497872993" name="Script files (-T)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/57xx_flash.ld&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sp.1735480609" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.fp.hard.715676454" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sysroot.1510304291" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries.1696353547" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.archiver.1315590263" name="Standard S32DS Archiver" superClass="com.freescale.s32ds.cross.gnu.e200.tool.archiver"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.300288392" name="Standard S32DS Assembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler">
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor.820801433" name="Use preprocessor" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level.1049638974" name="Debug Level" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs.1587583407" name="Defined symbols (-D)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DISABLE_SWT0"/>
+								</option>
+								<option id="gnu.both.asm.option.include.paths.1216553762" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sp.2041189017" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sysroot.996039687" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries.447521417" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.403044121" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile.137720057" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.createflash.1841762248" name="Standard S32DS Create Flash Image" superClass="com.freescale.s32ds.cross.gnu.e200.tool.createflash"/>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.createlisting.999690027" name="Standard S32DS Create Listing" superClass="com.freescale.s32ds.cross.gnu.tool.createlisting">
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.source.1453237070" name="Display source (--source|-S)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders.139773147" name="Display all headers (--all-headers|-x)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.demangle.623780266" name="Demangle names (--demangle|-C)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers.134852242" name="Display line numbers (--line-numbers|-l)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.wide.2127006212" name="Wide lines (--wide|-w)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.printsize.2049317996" name="Standard S32DS Print Size" superClass="com.freescale.s32ds.cross.gnu.tool.printsize">
+								<option id="com.freescale.s32ds.cross.gnu.option.printsize.format.1538895333" name="Size format" superClass="com.freescale.s32ds.cross.gnu.option.printsize.format"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.1021741972" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.2007765777" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.disassembler.888791674" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.assembler.2033279656" name="SPT Assembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.assembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.disassembler.1093936853" name="SPT Disassembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.preprocessor.613334777" name="SPT Preprocessor" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.preprocessor"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264.Project_Settings/Debugger/SIUL2_CodeExample_Z2_2_Debug_RAM.launch" name="SIUL2_CodeExample_Z2_2_Debug_RAM.launch" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/SIUL2_CodeExample_Z2_2_Debug_RAM.launch" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Linker_Files/57xx_flash.ld|Debugger/SIUL2_CodeExample_Z2_2_Debug_RAM.launch" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Project_Settings"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+		<cconfiguration id="com.freescale.s32ds.cross.gnu.e200.exe.Debug_RAM">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.freescale.s32ds.cross.gnu.e200.exe.Debug_RAM" moduleId="org.eclipse.cdt.core.settings" name="Debug_RAM">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.IcodeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MwfeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MwErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.S32DSGNULinkerErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.CobjErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.AsmErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.MPWErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.LnkErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="com.freescale.s32ds.cdt.core.errorParsers.LltErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildArtefactType="com.freescale.s32ds.cross.gnu.e200.buildArtefact.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=com.freescale.s32ds.cross.gnu.e200.buildArtefact.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug" cleanCommand="${cross_rm}" description="" errorParsers="com.freescale.s32ds.cdt.core.errorParsers.GmakeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.LnkErrorParser;com.freescale.s32ds.cdt.core.errorParsers.AsmErrorParser;com.freescale.s32ds.cdt.core.errorParsers.CobjErrorParser;com.freescale.s32ds.cdt.core.errorParsers.IcodeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.LltErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MwfeErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MwErrorParser;com.freescale.s32ds.cdt.core.errorParsers.MPWErrorParser" id="com.freescale.s32ds.cross.gnu.e200.exe.Debug_RAM" name="Debug_RAM" parent="com.freescale.s32ds.cross.gnu.e200.exe.debug">
+					<folderInfo id="com.freescale.s32ds.cross.gnu.e200.exe.Debug_RAM." name="/" resourcePath="">
+						<toolChain id="com.freescale.s32ds.cross.gnu.e200.toolChain.debug.844913524" name="Standard S32DS toolchain for E200" superClass="com.freescale.s32ds.cross.gnu.e200.toolChain.debug">
+							<option defaultValue="true" id="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize.735572617" name="Print size" superClass="com.freescale.s32ds.cross.gnu.e200.option.addtools.printsize" valueType="boolean"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard.1456870001" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.fp.hard" value="false" valueType="boolean"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot.16282642" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+							<option id="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.92578037" name="Libraries support" superClass="com.freescale.s32ds.cross.gnu.e200.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.targetPlatform.gnu.cross.706317098" isAbstract="false" osList="all" superClass="cdt.managedbuild.targetPlatform.gnu.cross"/>
+							<builder buildPath="${workspace_loc:/SIUL2_CodeExample_Z2_2}/Debug" id="com.freescale.s32ds.cross.gnu.builder.11027" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="FSL Make Builder" superClass="com.freescale.s32ds.cross.gnu.builder"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.101491150" name="Standard S32DS C Compiler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1588635323" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" useByScannerDiscovery="false" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.323986604" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections.2040077404" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections.2102686102" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format.199116881" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.c.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="gnu.c.compiler.option.include.paths.1164218846" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="gnu.c.compiler.option.misc.other.1485097542" name="Other flags" superClass="gnu.c.compiler.option.misc.other" value="-c -fmessage-length=0 -fstrict-volatile-bitfields" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sp.186019064" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.fp.hard.1098702705" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sysroot.1152939971" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries.611423072" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1029521890" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.1574927683" name="Standard S32DS C++ Compiler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler">
+								<option id="gnu.cpp.compiler.option.optimization.level.1874247707" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.2048689266" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections.1615791682" name="Function sections (-ffunction-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.functionsections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections.433910567" name="Data sections (-fdata-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.optimization.datasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format.115783833" name="Debug format" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.compiler.option.debugging.format" useByScannerDiscovery="true"/>
+								<option id="gnu.cpp.compiler.option.include.paths.618033084" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.662185436" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -fstrict-volatile-bitfields" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sp.688049722" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.fp.hard.1522450022" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sysroot.1571136044" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries.2145288976" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.cpp.compiler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.1640353812" name="Standard S32DS C Linker" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections.547205762" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.gcsections" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.c.linker.option.scriptfile.2098312715" name="Script files (-T)" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.option.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/57xx_ram.ld&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sp.1133058008" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.fp.hard.2069985196" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sysroot.2013324187" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries.1667852102" superClass="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.c.linker.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.c.linker.inputType.scriptfile.561878994" superClass="com.freescale.s32ds.cross.gnu.tool.c.linker.inputType.scriptfile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.1687127591" name="Standard S32DS C++ Linker" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker">
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections.794226544" name="Remove unused sections (-Xlinker --gc-sections)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.gcsections" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.scriptfile.1652034156" name="Script files (-T)" superClass="com.freescale.s32ds.cross.gnu.tool.cpp.linker.option.scriptfile" valueType="stringList">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/Project_Settings/Linker_Files/57xx_ram.ld&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sp.634630294" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.fp.hard.432054737" name="Use hardware floating point" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.fp.hard" value="false" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sysroot.1677559088" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries.2038354260" superClass="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.cpp.linker.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.archiver.1906000487" name="Standard S32DS Archiver" superClass="com.freescale.s32ds.cross.gnu.e200.tool.archiver"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.1848934796" name="Standard S32DS Assembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler">
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor.407826565" name="Use preprocessor" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.usepreprocessor" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level.33975802" name="Debug Level" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs.1908814589" name="Defined symbols (-D)" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.option.defs" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="DISABLE_SWT0"/>
+								</option>
+								<option id="gnu.both.asm.option.include.paths.1029087665" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${VLE_EWL_DIR}/EWL_C/include/pa&quot;"/>
+								</option>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sp.2143099347" name="Signal Processing" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sp" value="com.freescale.s32ds.cross.gnu.e200.option.target.sp.none" valueType="enumerated"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sysroot.1911322543" name="Sysroot" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.sysroot" value="--sysroot=&quot;${VLE_EWL_DIR}&quot;" valueType="string"/>
+								<option id="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries.1899567338" superClass="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries" value="com.freescale.s32ds.cross.gnu.e200.tool.assembler.option.target.libraries.ewl_c9x_noio" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.323694403" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+								<inputType id="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile.1094913971" superClass="com.freescale.s32ds.cross.gnu.tool.assembler.inputType.asmfile"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.createflash.1239568278" name="Standard S32DS Create Flash Image" superClass="com.freescale.s32ds.cross.gnu.e200.tool.createflash"/>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.createlisting.1213923084" name="Standard S32DS Create Listing" superClass="com.freescale.s32ds.cross.gnu.tool.createlisting">
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.source.1390828202" name="Display source (--source|-S)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.source" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders.1372699465" name="Display all headers (--all-headers|-x)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.allheaders" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.demangle.1246997876" name="Demangle names (--demangle|-C)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.demangle" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers.1692796006" name="Display line numbers (--line-numbers|-l)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.linenumbers" value="true" valueType="boolean"/>
+								<option id="com.freescale.s32ds.cross.gnu.option.createlisting.wide.249629220" name="Wide lines (--wide|-w)" superClass="com.freescale.s32ds.cross.gnu.option.createlisting.wide" value="true" valueType="boolean"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.tool.printsize.927697681" name="Standard S32DS Print Size" superClass="com.freescale.s32ds.cross.gnu.tool.printsize">
+								<option id="com.freescale.s32ds.cross.gnu.option.printsize.format.1345493174" name="Size format" superClass="com.freescale.s32ds.cross.gnu.option.printsize.format"/>
+							</tool>
+							<tool id="com.freescale.s32ds.cross.gnu.c.preprocessor.1634528877" name="Standard S32DS C Preprocessor" superClass="com.freescale.s32ds.cross.gnu.c.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.cpp.preprocessor.537386207" name="Standard S32DS C++ Preprocessor" superClass="com.freescale.s32ds.cross.gnu.cpp.preprocessor"/>
+							<tool id="com.freescale.s32ds.cross.gnu.disassembler.1633780362" name="Standard S32DS Disassembler" superClass="com.freescale.s32ds.cross.gnu.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.assembler.275347506" name="SPT Assembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.assembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.disassembler.1568384147" name="SPT Disassembler" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.disassembler"/>
+							<tool id="com.freescale.s32ds.cross.gnu.e200.tool.spt.preprocessor.96804754" name="SPT Preprocessor" superClass="com.freescale.s32ds.cross.gnu.e200.tool.spt.preprocessor"/>
+						</toolChain>
+					</folderInfo>
+					<fileInfo id="com.freescale.s32ds.cross.gnu.e200.exe.Debug_RAM.Project_Settings/Debugger/SIUL2_CodeExample_Z2_2_Debug.launch" name="SIUL2_CodeExample_Z2_2_Debug.launch" rcbsApplicability="disable" resourcePath="Project_Settings/Debugger/SIUL2_CodeExample_Z2_2_Debug.launch" toolsToInvoke=""/>
+					<sourceEntries>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Linker_Files/57xx_flash.ld|Debugger/SIUL2_CodeExample_Z2_2_Debug.launch" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="Project_Settings"/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="SIUL2_CodeExample_Z2_2.com.freescale.s32ds.cross.gnu.e200.exe.602107880" name="E200 Executable" projectType="com.freescale.s32ds.cross.gnu.e200.exe"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868;com.freescale.s32ds.cross.gnu.e200.exe.debug.17375868.;com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.70086545;cdt.managedbuild.tool.gnu.c.compiler.input.2075470015">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264;com.freescale.s32ds.cross.gnu.e200.exe.release.1046086264.;com.freescale.s32ds.cross.gnu.e200.tool.c.compiler.3855536;cdt.managedbuild.tool.gnu.c.compiler.input.354117042">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.embsys" parent_project="false" register_architecture="" register_board="---  none ---" register_chip="" register_core="" register_vendor=""/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

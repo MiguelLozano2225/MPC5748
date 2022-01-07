@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z2_2_Debug,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z2_2_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_LaunchGroup,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_LaunchGroup_RAM,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z4_0_Debug,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z4_0_Debug_RAM,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z4_1_Debug,org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z4_1_Debug_RAM
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_SIU2_Z4_0_Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_SIU2_Z4_0_Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_LaunchGroup/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_LaunchGroup/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z2_2_Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z2_2_Debug/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:MPC5748G_Timmers_Z4_0_Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:SIUL2_CodeExample_LaunchGroup/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:SIUL2_CodeExample_LaunchGroup/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:SIUL2_CodeExample_Z4_0_Debug/activeLaunchMode=debug

@@ -1,0 +1,11 @@
+14:00:03 **** Incremental Build of configuration Debug_RAM for project MPC5748G_SIU2_Z4_0 ****
+make -j8 all 
+Invoking: Standard S32DS Print Size
+powerpc-eabivle-size --format=berkeley MPC5748G_SIU2_Z4_0.elf
+   text	   data	    bss	    dec	    hex	filename
+   4842	     56	   4132	   9030	   2346	MPC5748G_SIU2_Z4_0.elf
+Finished building: MPC5748G_SIU2_Z4_0.siz
+ 
+
+14:00:03 Build Finished (took 373ms)
+

@@ -1,0 +1,36 @@
+/*
+ * main implementation: use this 'C' sample to create your own application
+ *
+ */
+
+#include "derivative.h" /* include peripheral declarations */
+
+extern void xcptn_xmpl(void);
+
+int main(void)
+{
+	AXBS_0.PORT[3].CRS.B.ARB = 1;  /* Round-robin (rotating) priority */
+	
+	xcptn_xmpl ();              /* Configure and Enable Interrupts */
+	MC_ME.PCTL[91].B.RUN_CFG = 0x1;  /* PIT: select peripheral configuration RUN_PC[1] */
+	SIUL2.MSCR[89].B.OBE = 1U;
+
+	STM_0.CR.B.TEN = 0;			/* Disable module for configuration */
+	STM_0.CR.B.CPS = 4;			/* Counter prescaler */
+	STM_0.CR.R |= (1<<27);		/* FXOSC as clock source */
+
+	STM_0.CNT.B.CNT = 20000000;
+	STM_0.CR.B.TEN = 1;			/* Enable module for configuration */
+	STM_0.CHANNEL[0].CCR.B.CEN = 1;	/* Enable channel */
+
+	/* Loop forever */
+	for(;;)
+	{
+
+		while(STM_0.CHANNEL[0].CIR.B.CIF == 0U);
+		SIUL2.GPDO[89].B.PDO_4n ^= 1;
+		STM_0.CHANNEL[0].CIR.B.CIF = 1U;
+
+	}
+}
+.

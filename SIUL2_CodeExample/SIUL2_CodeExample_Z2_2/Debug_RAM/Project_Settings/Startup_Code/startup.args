@@ -1,0 +1,13 @@
+-c
+-I"D:/git_projects/MPC5748G/SIUL2_CodeExample/SIUL2_CodeExample_Z2_2/include"
+-I"C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2/EWL_C/include"
+-I"C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2/EWL_C/include/pa"
+-x assembler-with-cpp
+-DDISABLE_SWT0
+-g3
+-mcpu=e200z2
+-specs=ewl_c9x_noio.specs
+-mbig
+-mvle
+-mregnames
+--sysroot="C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2"

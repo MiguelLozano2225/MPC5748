@@ -1,0 +1,11 @@
+21:16:28 **** Incremental Build of configuration Debug_RAM for project stm_periodic_interrupt_mpc5748g ****
+make -j8 all 
+Invoking: Standard S32DS Print Size
+powerpc-eabivle-size --format=berkeley stm_periodic_interrupt_mpc5748g.elf
+   text	   data	    bss	    dec	    hex	filename
+  14700	   3300	   4220	  22220	   56cc	stm_periodic_interrupt_mpc5748g.elf
+Finished building: stm_periodic_interrupt_mpc5748g.siz
+ 
+
+21:16:29 Build Finished (took 368ms)
+

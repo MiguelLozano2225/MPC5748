@@ -1,0 +1,11 @@
+12:58:34 **** Incremental Build of configuration Debug for project MPC5748G_Timmers_Z2_2 ****
+make -j8 all 
+Invoking: Standard S32DS Print Size
+powerpc-eabivle-size --format=berkeley MPC5748G_Timmers_Z2_2.elf
+   text	   data	    bss	    dec	    hex	filename
+   4682	     56	   4132	   8870	   22a6	MPC5748G_Timmers_Z2_2.elf
+Finished building: MPC5748G_Timmers_Z2_2.siz
+ 
+
+12:58:34 Build Finished (took 390ms)
+

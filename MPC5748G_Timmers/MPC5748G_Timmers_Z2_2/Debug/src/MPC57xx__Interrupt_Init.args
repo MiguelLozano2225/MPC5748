@@ -1,0 +1,17 @@
+-I"D:/git_projects/MPC5748G/MPC5748G_Timmers/MPC5748G_Timmers_Z2_2/include"
+-I"C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2/EWL_C/include"
+-I"C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2/EWL_C/include/pa"
+-O0
+-g3
+-Wall
+-c
+-fmessage-length=0
+-fstrict-volatile-bitfields
+-ffunction-sections
+-fdata-sections
+-mcpu=e200z2
+-specs=ewl_c9x_noio.specs
+-mbig
+-mvle
+-mregnames
+--sysroot="C:/NXP/S32DS_Power_v2.1/S32DS/build_tools/e200_ewl2"

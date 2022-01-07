@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641321792775_1" label="MPC5748G_Timmers" name="MPC5748G_Timmers">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MPC5748G_Timmers_Z4_0" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MPC5748G_Timmers_Z4_1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MPC5748G_Timmers_Z2_2" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641429698931_3" label="MPC5748G_SIU2" name="MPC5748G_SIU2">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MPC5748G_SIU2_Z4_0" type="4"/>
+</workingSet>
+<workingSet factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641497084625_4" label="SIUL2_CodeExample" name="SIUL2_CodeExample">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SIUL2_CodeExample_Z4_0" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SIUL2_CodeExample_Z4_1" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SIUL2_CodeExample_Z2_2" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641321326219_0" label="Window Working Set" name="Aggregate for window 1641321326218"/>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641357337440_2" label="Window Working Set" name="Aggregate for window 1641357337440"/>
+</workingSetManager>

@@ -1,0 +1,11 @@
+13:48:20 **** Incremental Build of configuration Debug_RAM for project SIUL2_CodeExample_Z4_0 ****
+make -j8 all 
+Invoking: Standard S32DS Print Size
+powerpc-eabivle-size --format=berkeley SIUL2_CodeExample_Z4_0.elf
+   text	   data	    bss	    dec	    hex	filename
+   4878	     56	   4132	   9066	   236a	SIUL2_CodeExample_Z4_0.elf
+Finished building: SIUL2_CodeExample_Z4_0.siz
+ 
+
+13:48:20 Build Finished (took 303ms)
+
